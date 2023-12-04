@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  database: dot-url-shortener-develop
+  pool: 5
+  timeout: 5000
+  encoding: unicode
+
+test:
+  adapter: postgresql
+  database: dot-url-shortener-test
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  database: dot-url-shortener
+  pool: 5
+  timeout: 5000
